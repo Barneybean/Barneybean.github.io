@@ -1,3 +1,4 @@
+/* Index */
 *{
     box-sizing: border-box;
     
@@ -145,3 +146,42 @@ footer{
 #copyright{
     text-align: center;
 }
+
+
+
+/* Contact */
+
+.name-contact{
+    color:
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-left:6px solid #4aaa4a;
+}
+
+.message-contact{
+    height: 250px;
+    width: 100%;
+    border-left:6px solid #4aaa4a;
+}
+
+.button-contact{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background:#4aaa4a;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* portfolio */
+
