@@ -70,7 +70,7 @@ body{
 
 /* change font size of link when hoer mouse pointer over */
 a {
-   
+    color:#777777;
     text-decoration: none;
 }
 
