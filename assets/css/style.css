@@ -91,7 +91,7 @@ body{
 }
 
 .footer{
-   
+    position: relative;
     background-color:#666666;
     color: #dddddd;
     height: 70px;
