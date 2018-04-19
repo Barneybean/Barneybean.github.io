@@ -63,7 +63,6 @@ body{
     float:right;
     line-height: 150px;
     font-size: 25px;
-    width:290px;
     height:100px;
     word-spacing:10px;
 }
@@ -72,7 +71,6 @@ body{
 a {
     color: inherit;
     text-decoration: none;
-
 }
 
 a:hover{
