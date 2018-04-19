@@ -3,26 +3,32 @@
     
 }
 
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
 body{
 /* style.css is not located in same folder as html */
     background: url("../images/background.png");
     background-repeat: repeat;
     margin:0px;
     color:#777777;
+   
 }
 
 .head{
-    position:relative;
     background-color:#ffffff;
-    margin-top:0px;
+    width: 100%;
+    margin:0px;
     height: 100px; 
-    
+    border-bottom: 2px solid #cccccc;
 }
 
 .name-box{
     margin-left: 20%;
     padding: 3px;
-    width: 260px;
+    width: 300px;
     height:100px;
     background-color: #4aaaa5;
     text-align: center;
@@ -35,7 +41,7 @@ body{
 }
 
 .nav{
-    float:left;
+    float:right;
     background:grey;
     width:100px;
     height:100px;
@@ -45,25 +51,29 @@ body{
 
 }
 
-.biocontainer{
-    margin:auto 0px;    
-}
-
-.bio{
-    margin:5px 20%;
-    background-color:#ffffff;
-    width: 960px;
+.bio-container{
+    width: 100%;
+    margin:20px 0px 0px 0px;   
     
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+.bio{
+    margin:10px 20% 20px;
+    background-color:#ffffff;
+    width: 960px;
+    padding:30px;
+    border: 1px solid #dddddd; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* clearfix for profil image and its container */
+.clearfix {
+    overflow:auto;
 }
 
 .about-bar{
-
+    border-bottom: 2px solid #dddddd;
+    margin-bottom: 20px;
 }
 
 .subtitle{
@@ -71,8 +81,9 @@ body{
 
 }
 
-#profile{
-    float: l
+#profile-image{
+    float: left;
+    margin: 25px 20px 20px 0px;
 }
 
 .paragraph{
@@ -80,5 +91,15 @@ body{
 }
 
 .footer{
+   
+    background-color:#666666;
+    color: #dddddd;
+    height: 70px;
+    border-top: 8px solid #4aaaa5;
+}
 
+#copyright{
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
 }
