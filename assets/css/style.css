@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+/* style.css is not located in same folder as html */
+    background: url("../images/background.png");
+    background-repeat: repeat;
+    margin:0px;
+    color:#777777;
+}
+
+.head{
+    position:relative;
+    background-color:#ffffff;
+    margin-top:0px;
+    height: 100px; 
+    
+}
+
+.name-box{
+    margin-left: 20%;
+    padding: 3px;
+    width: 260px;
+    height:100px;
+    background-color: #4aaaa5;
+    text-align: center;
+
+}
+
+
+.name{
+    color:#ffffff;
+}
+
+.nav{
+    float:left;
+    background:grey;
+    width:100px;
+    height:100px;
+}
+
+.nav-item{
+
+}
+
+.biocontainer{
+    margin:auto 0px;    
+}
+
+.bio{
+    margin:5px 20%;
+    background-color:#ffffff;
+    width: 960px;
+    
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.about-bar{
+
+}
+
+.subtitle{
+    color:#4aaaa5;
+
+}
+
+#profile{
+    float: l
+}
+
+.paragraph{
+    overflow:auto;
+}
+
+.footer{
+
+}
