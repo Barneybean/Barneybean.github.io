@@ -1,6 +1,6 @@
 # Chunjin Gao Portfolio
 
-Deployed Site: https://github.com/Barneybean/Barneybean.github.io
+Deployed Site: https://barneybean.github.io/.
 
 This is the portfolio for Chunjin (WIlliam) Gao.
 
