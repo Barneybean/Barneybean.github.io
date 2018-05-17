@@ -13,6 +13,29 @@ h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h3{
+    position: absolute;
+    bottom:5px;
+    height: 50px;
+    width:100%;
+    background-color:#4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+h5{
+    position: absolute;
+    bottom:5px;
+    height: 50px;
+    width:100%;
+    background-color:#4aaaa5;
+    color: #ffffff; 
+    text-align: center;
+    padding: 10px;
+}
+
 
 body{
 /* style.css is not located in same folder as html */
@@ -206,30 +229,10 @@ section{
 
 .frame{
     position: relative;
+    color:#ffffff;
 }
 
 
-h3{
-    position: absolute;
-    bottom:5px;
-    height: 50px;
-    width:100%;
-    background-color:#4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px;
-    
-}
 
-h5{
-    position: absolute;
-    bottom:5px;
-    height: 50px;
-    width:100%;
-    background-color:#4aaaa5;
-    color: #ffffff; 
-    text-align: center;
-    padding: 10px;
-}
 
 
