@@ -93,3 +93,16 @@ a{
 a:active,a:focus,a:hover{
     color:#824027}
 
+.project1:hover {
+    z-index: 1;
+}
+.project2:hover {
+    z-index: 1;
+}
+.project3:hover {
+    z-index: 1;
+}
+.project4:hover {
+    z-index: 1;
+}
+      
